@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Home />
       <Education />
-      <Projects />
       <Skills />
+      <Projects />
       <Contact />
     </>
   )

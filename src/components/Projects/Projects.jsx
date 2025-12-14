@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import './projects.css'
 import {projects} from '../data/projectData.jsx';
 
@@ -26,7 +27,7 @@ function Projects () {
 
     return (
         <>
-            <section className="project-section">
+            <section className="project-section" id="projects">
             <h1 className="projects-heading">My Projects</h1>
             <p>“A collection of things I’ve built while learning, exploring and breaking stuff (in a good way.)”</p>
             {/* Filter buttons */}
@@ -57,7 +58,7 @@ function Projects () {
                                 ))}
                             </div>
                             <h3>Links:</h3>
-                            <p>Github: <a href={p.github} target="_blank">{p.github}</a></p>
+                            <a href={p.github} target="_blank"> <FaGithub /> </a>
                             <p>Live: <a href={p.live} target="_blank">{p.live}</a></p>
                             {/* <h3>Highlights:</h3>
                             {p.highlights.map(d => (

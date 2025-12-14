@@ -4,7 +4,7 @@ import { learningJourney } from "../data/learningJourney";
 
 function Education() {
   return (
-    <section className="education-section">
+    <section className="education-section" id="education">
       <h1 className="education-heading">Education & Learning Journey</h1>
        <p className="education-subtitle">
             A snapshot of how I moved from foundations to full-stack development.

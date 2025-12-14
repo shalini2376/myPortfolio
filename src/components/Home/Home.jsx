@@ -3,7 +3,7 @@ import './home.css'
 function Home (){
     return (
         <>
-            <div className='home-section-container'>
+            <section className='home-section-container' id="home">
                 <div className="home-section-intro-div">
                     <h3 className="welcome-heading">You're Welcome🙏!!</h3>
                     <h1>I'm Shalini</h1>
@@ -20,7 +20,7 @@ function Home (){
                 <div className="img-container">
                     <img className="my-img" alt="my-img" src="https://res.cloudinary.com/drmleijbw/image/upload/v1763625788/IMG-20240915-WA0007_1__cropped_zlvfp9.jpg" />
                 </div>
-            </div>
+            </section>
         </>
     )
 }
