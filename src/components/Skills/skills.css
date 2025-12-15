@@ -90,7 +90,7 @@
   margin: 0.15rem 0;
 }
 
-/* small bullet marker / chip feel */
+/* small bullet marker */
 .skills-item::before {
   content: "•";
   font-size: 0.8rem;

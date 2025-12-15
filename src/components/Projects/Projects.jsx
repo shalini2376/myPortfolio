@@ -28,7 +28,7 @@ function Projects () {
     return (
         <>
             <section className="project-section" id="projects">
-            <h1 className="projects-heading">My Projects</h1>
+            <h1 className="section-heading">My <span>Projects</span></h1>
             <p>“A collection of things I’ve built while learning, exploring and breaking stuff (in a good way.)”</p>
             {/* Filter buttons */}
             <div className='filter-buttons-container'>
@@ -46,37 +46,35 @@ function Projects () {
             {/* Featured Projects Crad */}
             {featuredProjects.length > 0 && (
                 <>
-                    <h2>Featured Projects ⭐</h2>
+                    <h2>Featured Projects ✨</h2>
                     <div className="projects-card-container projects-grid ">
                     {featuredProjects.map(p => (
                         <div key={p.id} className='projects-card' >
-                            <h1>{p.title}</h1>
+                            <h1 className="project-title-heading">{p.title}</h1>
                             <p>{p.tagline}</p>
                             <div className="tech-badges">
                                 {p.tech.map(t => (
                                     <button key={t}>{t}</button>
                                 ))}
                             </div>
-                            <h3>Links:</h3>
-                            <a href={p.github} target="_blank"> <FaGithub /> </a>
-                            <p>Live: <a href={p.live} target="_blank">{p.live}</a></p>
-                            {/* <h3>Highlights:</h3>
-                            {p.highlights.map(d => (
-                                <ul className="description-list-container" key={d}>
-                                    <li className="description-list">{d}</li>
-                                </ul>
-                            ))} */}
-                            {/* <p>{p.longDescription}</p> */}
-                            {/* <div className="project-images">
-                                {p.images.map(img => (
-                                    <img
-                                        key={img}
-                                        className="project-card-img"
-                                        src={img}
-                                        alt={`${p.title} screenshot`}
-                                    />
-                                ))}
-                            </div> */}
+                            <div className='project-card-link-div'>
+                                <a
+                                    href={p.github}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label="View source code"
+                                >
+                                    <FaGithub />
+                                </a>
+                                <a
+                                    href={p.live}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label="View live project"
+                                >
+                                    <FaExternalLinkAlt />
+                                </a>
+                            </div>
                         </div>
                     ))}
                     </div>
@@ -84,37 +82,35 @@ function Projects () {
             )}
             {otherProjects.length > 0 && (
                 <>
-                    <h2>Other Projects</h2>
+                    <h2>Mini Projects</h2>
                     <div className="projects-card-container projects-grid featured">
                     {otherProjects.map(p => (
                         <div key={p.id} className='projects-card' >
-                            <h1>{p.title}</h1>
+                            <h1 className="project-title-heading">{p.title}</h1>
                             <p>{p.tagline}</p>
                             <div className="tech-badges">
                                 {p.tech.map(t => (
                                     <button key={t}>{t}</button>
                                 ))}
                             </div>
-                            <h3>Links:</h3>
-                            <p>Github: <a href={p.github} target="_blank">{p.github}</a></p>
-                            <p>Live: <a href={p.live} target="_blank">{p.live}</a></p>
-                            {/* <h3>Highlights:</h3> */}
-                            {/* {p.highlights.map(d => (
-                                <ul className="description-list-container" key={d}>
-                                    <li className="description-list">{d}</li>
-                                </ul>
-                            ))} */}
-                            {/* <p>{p.longDescription}</p> */}
-                            {/* <div className="project-images">
-                                {p.images.map(img => (
-                                    <img
-                                        key={img}
-                                        className="project-card-img"
-                                        src={img}
-                                        alt={`${p.title} screenshot`}
-                                    />
-                                ))}
-                            </div> */}
+                             <div className='project-card-link-div'>
+                            <a
+                                href={p.github}
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="View source code"
+                            >
+                                <FaGithub />
+                            </a>
+                            <a
+                                href={p.live}
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="View live project"
+                            >
+                                <FaExternalLinkAlt />
+                            </a>
+                            </div>
                         </div>
                     ))}
                     </div>

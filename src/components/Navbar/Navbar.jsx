@@ -3,7 +3,7 @@ import './navbar.css'
 function Navbar(){
     return (
         <>
-          <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#3E5C76" }} >
+          <nav className="navbar navbar-expand-lg navbar-dark" >
       <div className="container-fluid">
 
         {/* Brand */}
@@ -52,7 +52,12 @@ function Navbar(){
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a 
+                className="nav-link" 
+                href="/Shalini_Singh_Full_Stack_Developer_Resume..pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Resume
               </a>
             </li>

@@ -2,35 +2,8 @@
 
 export const projects = [
     {
-  id: "hrms",
-  title: "HRMS - Human Resource Management System",
-  tagline: "Role-based HR portal to manage organisations, employees, teams, and activity logs.",
-  categories: ["Fullstack"],
-  featured: true,
-  tech: ["React", "React Router", "Node.js", "Express", "Sequelize", "SQLite", "JWT", "Render", "Netlify"],
-  live: "https://hrms-assignment.netlify.app/",
-  github: "https://github.com/shalini2376/HRMS-Project",
-  highlights: [
-    "Role-based login with JWT authentication",
-    "Organisation, user, and team management",
-    "Activity logs for create/update/delete actions",
-    "Deployed on Render (backend) and Netlify (frontend)"
-  ],
-  longDescription:
-    "A full-stack HRMS application that allows organisations to manage their users, teams, employees, and action logs. Implements secure authentication, relational data modeling, and a clean React UI with complete CRUD workflows.",
-  images: [
-    "src/assets/HRMS/login.png",
-    "src/assets/HRMS/register.png",
-    "src/assets/HRMS/add_employees.png",
-    "src/assets/HRMS/employees.png",
-    "src/assets/HRMS/add_team.png",
-    "src/assets/HRMS/teams.png",
-    "src/assets/HRMS/logs.png",
-  ]
-},
-    {
   id: "oralvis",
-  title: "Healthcare Management - Scans & Dentist Portal",
+  title: "Healthcare Management - Technician & Dentist Portal",
   tagline: "Role-based scan upload system where technicians upload patient scans and dentists review & download reports.",
   categories: ["Fullstack"],
   featured: true,
@@ -107,8 +80,8 @@ export const projects = [
     "React Router"
   ],
 
+  live: "https://vidstream25.netlify.app",
   github: "https://github.com/shalini2376/VidStream",
-  live: "",
 
   highlights: [
     "YouTube-style video browsing interface",
@@ -166,6 +139,33 @@ export const projects = [
     "src/assets/jobquest/job_details.png",
   ]
 },
+ {
+  id: "hrms",
+  title: "HRMS - Human Resource Management System",
+  tagline: "Role-based HR portal to manage organisations, employees, teams, and activity logs.",
+  categories: ["Fullstack"],
+  featured: true,
+  tech: ["React", "React Router", "Node.js", "Express", "Sequelize", "SQLite", "JWT", "Render", "Netlify"],
+  live: "https://hrms-assignment.netlify.app/",
+  github: "https://github.com/shalini2376/HRMS-Project",
+  highlights: [
+    "Role-based login with JWT authentication",
+    "Organisation, user, and team management",
+    "Activity logs for create/update/delete actions",
+    "Deployed on Render (backend) and Netlify (frontend)"
+  ],
+  longDescription:
+    "A full-stack HRMS application that allows organisations to manage their users, teams, employees, and action logs. Implements secure authentication, relational data modeling, and a clean React UI with complete CRUD workflows.",
+  images: [
+    "src/assets/HRMS/login.png",
+    "src/assets/HRMS/register.png",
+    "src/assets/HRMS/add_employees.png",
+    "src/assets/HRMS/employees.png",
+    "src/assets/HRMS/add_team.png",
+    "src/assets/HRMS/teams.png",
+    "src/assets/HRMS/logs.png",
+  ]
+},
   {
   id: "thechefkart",
   title: "TheChefKart",
@@ -182,8 +182,8 @@ export const projects = [
     "REST API (Mock/Static Data)"
   ],
 
-  github: "https://github.com/shalini2376/TheChefKart",
   live: "https://thechefkart-foodpage.netlify.app",
+  github: "https://github.com/shalini2376/TheChefKart",
 
   highlights: [
     "Responsive, clean UI for browsing food items",
@@ -241,8 +241,8 @@ export const projects = [
     "Werkzeug Security"
   ],
 
-  github: "https://github.com/shalini2376/UserFlow-API",
   live: "https://retainsure-task-1.onrender.com",
+  github: "https://github.com/shalini2376/UserFlow-API",
 
   highlights: [
     "Complete CRUD operations for user management",
@@ -275,8 +275,8 @@ export const projects = [
     "Pytest"
   ],
 
-  github: "https://github.com/shalini2376/url_shortner",
   live: "https://url-shortner-h98f.onrender.com", 
+  github: "https://github.com/shalini2376/url_shortner",
 
   highlights: [
     "POST /api/shorten endpoint with URL validation and short code generation",
@@ -310,8 +310,8 @@ export const projects = [
     "Reactjs-popup"
   ],
 
-  github: "https://github.com/shalini2376/NirogGyan__assignment",
   live: "https://shalini2376.github.io/NirogGyan__assignment",
+  github: "https://github.com/shalini2376/NirogGyan__assignment",
 
   highlights: [
     "Doctor profile listing with availability indicators",
@@ -336,8 +336,8 @@ export const projects = [
   categories: ["Practice", "Frontend"],
   featured: false,
   tech: ["HTML5", "CSS3", "Responsive Design", "Flexbox / Grid"],
-  github: "https://github.com/shalini2376/Responsive-Food-Website",
   live: "https://shalini2376.github.io/Responsive-Food-Website",  
+  github: "https://github.com/shalini2376/Responsive-Food-Website",
   highlights: [
     "Fully responsive layout for desktop, tablet and mobile",
     "Clean restaurant-style UI with navigation, menus and imagery",
@@ -367,8 +367,8 @@ export const projects = [
     "JavaScript"
   ],
 
-  github: "https://github.com/shalini2376/tic-tac-toe",
   live: "https://shalini2376.github.io/tic-tac-toe",
+  github: "https://github.com/shalini2376/tic-tac-toe",
 
   highlights: [
     "Turn-based game logic implementation",
@@ -400,8 +400,8 @@ export const projects = [
     "JavaScript"
   ],
 
-  github: "https://github.com/shalini2376/calculaor",
   live: "https://shalini2376.github.io/calculaor",
+  github: "https://github.com/shalini2376/calculaor",
 
   highlights: [
     "Basic arithmetic operations support",
@@ -433,8 +433,8 @@ export const projects = [
     "JavaScript"
   ],
 
-  github: "https://github.com/shalini2376/MyNotes-App",
   live: "https://shalini2376.github.io/MyNotes-App",
+  github: "https://github.com/shalini2376/MyNotes-App",
 
   highlights: [
     "Add, search, and delete notes",
@@ -466,8 +466,8 @@ export const projects = [
     "JavaScript"
   ],
 
-  github: "https://github.com/shalini2376/coffeeBar-UI",
   live: "https://shalini2376.github.io/coffeeBar-UI",
+  github: "https://github.com/shalini2376/coffeeBar-UI",
 
   highlights: [
     "Responsive multi-section coffee website layout",
@@ -500,8 +500,8 @@ export const projects = [
     "JavaScript"
   ],
 
-  github: "https://github.com/shalini2376/temperature-converter",
   live: "https://shalini2376.github.io/temperature-converter",
+  github: "https://github.com/shalini2376/temperature-converter",
 
   highlights: [
     "Convert temperatures between Celsius, Fahrenheit, and Kelvin",
@@ -534,8 +534,8 @@ export const projects = [
     "localStorage"
   ],
 
-  github: "https://github.com/shalini2376/TO-DO-List",
   live: "https://shalini2376.github.io/TO-DO-List",
+  github: "https://github.com/shalini2376/TO-DO-List",
 
   highlights: [
     "Add and delete tasks",

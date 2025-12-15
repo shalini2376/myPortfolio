@@ -1,10 +1,11 @@
 
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
 
-@media (max-width:450px){
-    body{
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
-    }
+h1, h2, h3 {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+p{  
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
 }
