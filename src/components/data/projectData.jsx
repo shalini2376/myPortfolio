@@ -56,7 +56,7 @@ export const projects = [
   id: "job-scheduler",
   title: "Job Scheduler & Automation System",
   tagline: "A full-stack job scheduling system to create, execute, track jobs, and trigger webhooks on completion.",
-  categories: ["Full Stack"],
+  categories: ["Fullstack"],
   featured: true,
   tech: [
     "React (Vite)",
