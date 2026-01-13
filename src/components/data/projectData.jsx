@@ -24,6 +24,59 @@ export const projects = [
     "src/assets/oralvis/technician-upload.png",
     "src/assets/oralvis/dentist-viewer.png"
   ]
+},{
+  id: "email-template-system",
+  title: "Email API Integration & Template Management System",
+  tagline:
+    "Full stack application to create email templates, manage contacts, and send bulk personalized emails using SendGrid.",
+  categories: ["Fullstack"],
+  featured: true,
+  tech: [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "SendGrid API",
+    "Axios"
+  ],
+  live: "", //  not deployed yet
+  github: "https://github.com/shalini2376/Template-Management-System",
+  highlights: [
+    "Create and edit reusable email templates with dynamic placeholders",
+    "Manage contacts and organize them into groups",
+    "Send bulk personalized emails using SendGrid API",
+    "Dynamic content replacement using {{name}} placeholders",
+    "Clean separation of frontend, backend, and email service logic"
+  ],
+  longDescription:
+    "A full stack email template management system that allows users to create and edit email templates, manage contacts with group-based categorization, and send bulk personalized emails. The backend is built with Node.js and Express, using MongoDB for persistent storage of templates and contacts. SendGrid API is integrated to handle real email delivery. The frontend is built with React and communicates with the backend using REST APIs. Dynamic placeholders such as {{name}} are replaced at runtime to personalize each email before sending.",
+},
+{
+  id: "job-scheduler",
+  title: "Job Scheduler & Automation System",
+  tagline: "A full-stack job scheduling system to create, execute, track jobs, and trigger webhooks on completion.",
+  categories: ["Full Stack"],
+  featured: true,
+  tech: [
+    "React (Vite)",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "SQLite",
+    "REST API",
+    "Webhooks"
+  ],
+  live: "https://jobscheduler26.netlify.app",
+  github: "https://github.com/shalini2376/job-scheduler",
+  longDescription:
+    "A full-stack Job Scheduler and Automation System that allows users to create background jobs, manage their execution lifecycle, filter jobs by status and priority, view detailed job information, and trigger webhooks automatically when jobs complete. The project demonstrates real-world backend job processing concepts with a clean and responsive frontend UI.",
+  highlights: [
+    "Real-world job scheduling and automation workflow",
+    "End-to-end full-stack implementation",
+    "Strong focus on backend logic, API design, and UI clarity",
+    "Demonstrates practical use of webhooks and async processing"
+  ]
 },
     {
   id: "nxt-trendz",
@@ -61,7 +114,6 @@ export const projects = [
     "src/assets/nxttrendz/cart.png",
     "src/assets/nxttrendz/products.png",
     "src/assets/nxttrendz/product_details.png",
-    
   ]
 },
   {
